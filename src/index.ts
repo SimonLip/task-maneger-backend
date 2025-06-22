@@ -3,7 +3,7 @@ import cors from "cors";
 import mongoose from "mongoose";
 import boardRoutes from "./routes/boardRoutes";
 
-const MONGO_URL = "mongodb://localhost:27017/task-manager";
+const MONGO_URL = "mongodb+srv://simonlip:stas1234@cluster0.sbiqbgj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 const app = express();
 const PORT = 5000;
